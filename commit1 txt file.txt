@@ -1,0 +1,58 @@
+import React from 'react'
+import { Button } from 'react-bootstrap';
+
+import {Link} from 'react-router-dom';
+
+export default function Tabnavb(){
+    return(
+
+<div className= "nav-btn-icon">
+
+
+  <Button Link="primary">Primary</Button>{' '}
+  <Button variant="secondary">Secondary</Button>{' '}
+  <Button variant="success">Success</Button>{' '}
+ 
+
+  </div>
+
+    );
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+    
+  
+
+}
+
+
+
+<Navbar >
+  
+    <Nav className="mr-auto">
+      <Nav.Link className="nav-item">
+        <Link to="/sup">Supplements </Link>
+        </Nav.Link>
+        <Nav.Link className="nav-item">
+        <Link to="/wear">Gym Wear </Link>
+        </Nav.Link>
+
+        <Nav.Link className="nav-item">
+        <Link to="/equip">Gym Equipments </Link>
+        </Nav.Link>
+
+
+     
+    </Nav>
+   
+  </Navbar>
